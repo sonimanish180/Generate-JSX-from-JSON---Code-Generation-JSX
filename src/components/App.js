@@ -7,7 +7,7 @@ class App extends Component {
         return(
             <>
             <Clock root = "true" style = {{display : "flex", flexDirection : "row", justifyContent : "center"}}>
-                <Hour></Hour>                
+                <Hour/>                
                 <Minute style = {{color : "green", fontSize : 30}}></Minute>
             </Clock>
                
