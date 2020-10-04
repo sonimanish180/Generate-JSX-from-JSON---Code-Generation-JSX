@@ -23,21 +23,6 @@ class App extends Component {
     clock.appendChild(hour);
     clock.appendChild(minute);
 
-    return (
-      <>
-        {clock};
-        {/* <Clock
-          root="true"
-          style={{
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "center"
-          }}
-        >
-          <Hour />
-          <Minute style={{ color: "green", fontSize: 30 }}></Minute>
-        </Clock> */}
-      </>
-    );
+    return app;
   }
 }
